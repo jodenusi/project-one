@@ -1,6 +1,17 @@
 #!/bin/bash
 
 
+#OWNER: JODENUSI
+
+
+#Echo "This machine has been running for .........."
+echo "This machine has been running for .........."
+
+
+#Check how long this machine has been running
+uptime
+
+
 #Create a file with the name domino.yaml
 touch domino.yaml
 
