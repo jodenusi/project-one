@@ -11,6 +11,13 @@ echo "This machine has been running for .........."
 #Check how long this machine has been running
 uptime
 
+#Create a new user with the name Femi
+sudo useradd -m femi
+
+
+#Install the application called Docker
+sudo apt-get install -y docker.io
+
 
 #Create a file with the name domino.yaml
 touch domino.yaml
